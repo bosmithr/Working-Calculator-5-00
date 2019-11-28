@@ -16,7 +16,7 @@ test:
 	gcc -o interpreter_test.t interpreter_test.c
 	prove -v ./interpreter_test.t
 
-#object file targets for testing:
+#object file targets for testing for up to date dependencies:
 tokenizer.o: 		tokenizer.h
 
 ui.o:				ui.c
