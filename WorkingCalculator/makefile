@@ -1,3 +1,4 @@
+#Kevin Smith
 #application target for execute
 calc: ui.o tokenizer.o infixtopostfix.o codegen.o interpreter.o
 	gcc -o calc ui.o infixtopostfix.o codegen.o interpreter.o tokenizer.o
